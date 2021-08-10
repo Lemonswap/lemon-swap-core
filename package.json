@@ -1,18 +1,17 @@
 {
-  "name": "@uniswap/v2-core",
-  "description": "🎛 Core contracts for the UniswapV2 protocol",
-  "version": "1.0.1",
-  "homepage": "https://uniswap.org",
+  "name": "@lemonswap/core",
+  "description": "🎛 Core contracts for the LemonSwap protocol",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Lemonswap/lemon-swap-core#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v2-core"
+    "url": "git+https://github.com/Lemonswap/lemon-swap-core.git"
   },
   "keywords": [
-    "uniswap",
+    "lemonswap",
     "ethereum",
-    "v2",
     "core",
-    "uniswap-v2"
+    "lemonswap-core"
   ],
   "files": [
     "contracts",
@@ -22,6 +21,7 @@
     "node": ">=10"
   },
   "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.4.3",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
@@ -44,5 +44,14 @@
     "test": "mocha",
     "prepublishOnly": "yarn test"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/Lemonswap/lemon-swap-core/issues"
+  },
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "huaming.chisha"
 }
